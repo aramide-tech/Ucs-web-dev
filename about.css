@@ -39,7 +39,7 @@ nav a:hover {
 
 #main-image{
     float:left;
-    background-image:url('assets/img/flower.jpg'); 
+    background-image:url('flower.jpg'); 
     height: 400px;
     background-repeat:no-repeat;
     width:40%;
