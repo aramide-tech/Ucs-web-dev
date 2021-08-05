@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "nav.css">
+    <link rel = "stylesheet" href = "contact.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id = "logo">Logo</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="products.html">Our Product</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="showcase">
+    <div class="container">
+        <h1>Contact</h1>
+    </div>
+</section>
+
+<section id="form">
+<div class="container">
+<form>
+<h1>School Form</h1>
+
+Name:<input type=”text” name=”first” size=”8” tabindex="1" required =”true” placeholder="First name" pattern="[A-Za-z]"/>
+<input type=”text” name=”last” size=”14” tabindex=”2” required=”true” placeholder="Last name" pattern="[A-Za-z]"/>
+<br>
+<br>
+
+Age:<input type="number" id="age" value="15" min="15" max="50"step="3">
+<br>
+<br>
+
+<p><label for="dob">DOB:</label><input type="date" id="dob">
+</p>
+
+<label>Sex:</label><br>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other">Other<br>
+<br> 
+
+
+Contact:<input type="tel" size=”4” maxlength=”5” tabindex=”3” required=”true” placeholder =”+234” pattern=”[+0-9]{1,4}” title=”Format:(+)234”/>
+<input type=”tel” size=”10” maxlength=”12” tabindex=”4” required=”true” placeholder=”Number” pattern=”[0-9]{8,}” title=”Minimum 8 numbers”/>
+<br>
+<br>
+
+E-mail:<input type="email" name=emailid maxlength="200" required="true" placeholder="Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2'}$"/>
+<br>
+<br>
+<h2>Leave a Comment</h2>
+<label>Comment:</label><br>
+
+<aside id="comment">
+    <textarea> Leave a comment</textarea>
+
+</div>
+
+
+
+</aside>
+
+
+
+<input type="Submit">
+</form>
+</div>
+</section>
+        
+<aside id="paragraph">
+<div class="container">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi quo similique quos corporis! Quidem rem quos, provident animi ullam dicta dolor suscipit unde nisi beatae. Voluptatibus quaerat ut ducimus.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus quidem eligendi repellat, alias cumque, corporis quos quod dolorum eos a eum earum. Incidunt sint autem omnis delectus. Nisi, illum corrupti!</p>
+</div>
+</aside>
+</body>
+</html>

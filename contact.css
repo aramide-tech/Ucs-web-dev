@@ -1,0 +1,31 @@
+#paragraph{
+    float: left;
+    width:30%;
+    padding:0 30px;
+    box-sizing:border-box;
+    color:black;
+    margin-bottom: 50px;
+    margin-left:10%;
+    font-size: 125%;
+}
+
+#form{
+    float:left;
+    background: rgba(250, 249, 249, 0.61);
+    color:black;
+    width:40%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+#comment{
+    float: left;
+    width: 38.5%;
+    height: 65px;
+    border: 1.5px solid rgb(20, 20, 20);
+    margin-left: 5%;
+    margin-bottom: 20%;
+    background: rgb(255, 255, 255);
+}
